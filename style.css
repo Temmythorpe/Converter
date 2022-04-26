@@ -1,0 +1,49 @@
+*{
+padding: 0;
+margin: 0;
+border: none;
+}
+
+body{
+    background-color: rgb(14, 14, 51);
+   margin-top: 50px;
+   font-family: sans-serif;
+  padding: 50px;
+}
+
+.weightcalculator{
+    background-color: rgb(29, 29, 103);
+    padding: 15px;
+    border-radius: 30px;
+    width: 310px;
+    border: 5px solid rgb(18, 18, 77);
+    color: #fff;
+}
+
+input{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    margin: 2px;
+}
+
+.card-box{
+    background-color: rgb(14, 14, 51);
+    margin: 10px;
+    margin-top: 20px;
+    color: #fff;
+    height: 60px;
+    width: 300px;
+   text-align: center;
+   border-radius: 10px;
+   border: none;
+   border: 2px solid white;
+   font-size: 15px;
+}
+h1{
+    font-size: 25px;
+ 
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <center>
+           <div class="weightcalculator">
+               <h1>Weight Calculator</h1>
+               <input type="number" placeholder="Input kg value" oninput="inputKilograms(this.value)">
+               <button class="card-box">pounds: <span id="kiloToPounds"></span></button>
+               <button class="card-box">Ounces: <span id="kiloToOunces"></span></button>
+               <button class="card-box">Grams: <span id="kiloToGrams"></span></button>
+               <button class="card-box">Stones: <span id="kiloToStones"></span></button>
+           </div>
+        </center>
+    </div>
+
+    <script>
+        function inputKilograms(num){
+            document.getElementById("kiloToPounds").innerHTML=num*2.2046;
+            document.getElementById("kiloToOunces").innerHTML=num*35.274;
+            document.getElementById("kiloToGrams").innerHTML=num*1000;
+            document.getElementById("kiloToStones").innerHTML=num*0.1574;
+        }
+    </script>
+</body>
+</html>
